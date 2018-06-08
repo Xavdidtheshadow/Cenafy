@@ -1,12 +1,14 @@
-$(document).ready(function() {
-	var chance = Math.floor(Math.random() * 100);
-	if(chance === 69) {
-		cenafy();
-	}
-});
+/* global $ */
 
-var cenafy = function() {
-	setTimeout(function() {
-		window.location.href = "http://instantcena.com/";
-	}, 3000);
-};
+const cenafy = () => {
+  setTimeout(() => {
+    window.location.href = 'https://davidbrownman.com/instantcena/'
+  }, 3000)
+}
+
+$(document).ready(() => {
+  var chance = Math.floor(Math.random() * 100)
+  if (chance === 69) {
+    cenafy()
+  }
+})

@@ -1,6 +1,6 @@
 {
   "name": "Cenafy Redirect",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A 1 in 100 chance to make any new tab 100% more Cena",
   "content_scripts": [
     {
